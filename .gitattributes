@@ -1,2 +1,891 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local V10 = Instance.new("ScreenGui")
+local HARAKETLFRAME = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local CREADST = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local EXTRA = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local frame = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local farm = Instance.new("Frame")
+local frame_2 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local fast = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local fast_2 = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local fast_3 = Instance.new("TextLabel")
+local UICorner_17 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
+local fast_4 = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local dipnoframe = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local NOT = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
+local TextButton_11 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local PLAYER = Instance.new("Frame")
+local UICorner_29 = Instance.new("UICorner")
+local TextButton_12 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local playerframe = Instance.new("Frame")
+local UICorner_31 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_32 = Instance.new("UICorner")
+local HIZ100 = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local HIZNormal = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local ZIPLAMA100 = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local ZIPLAMANormal = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_37 = Instance.new("UICorner")
+local SOCAL = Instance.new("Frame")
+local UICorner_38 = Instance.new("UICorner")
+local TextButton_13 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local sc = Instance.new("Frame")
+local UICorner_40 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_41 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local UICorner_42 = Instance.new("UICorner")
+local BALIK = Instance.new("Frame")
+local UICorner_43 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local UICorner_44 = Instance.new("UICorner")
+local dipnoon = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local UICorner_45 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local UICorner_46 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local UICorner_47 = Instance.new("UICorner")
+local TextLabel_11 = Instance.new("TextLabel")
+local UICorner_48 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local UICorner_49 = Instance.new("UICorner")
+local UICorner_50 = Instance.new("UICorner")
+
+--Properties:
+
+V10.Name = "V1.0"
+V10.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+V10.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+HARAKETLFRAME.Name = "HARAKETLİ FRAME"
+HARAKETLFRAME.Parent = V10
+HARAKETLFRAME.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+HARAKETLFRAME.Position = UDim2.new(0.319180071, 0, 0.153333336, 0)
+HARAKETLFRAME.Size = UDim2.new(0, 552, 0, 383)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(12, 12, 12)), ColorSequenceKeypoint.new(0.21, Color3.fromRGB(100, 100, 100)), ColorSequenceKeypoint.new(0.38, Color3.fromRGB(65, 65, 65)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(67, 67, 67)), ColorSequenceKeypoint.new(0.74, Color3.fromRGB(108, 108, 108)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(149, 149, 149))}
+UIGradient.Parent = HARAKETLFRAME
+
+CREADST.Name = "CREADİST"
+CREADST.Parent = HARAKETLFRAME
+CREADST.BackgroundColor3 = Color3.fromRGB(255, 70, 215)
+CREADST.Position = UDim2.new(-0.169937104, 0, 0.811932206, 0)
+CREADST.Size = UDim2.new(0, 197, 0, 40)
+
+UICorner.Parent = CREADST
+
+TextButton.Parent = CREADST
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 70, 215)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.FredokaOne
+TextButton.Text = "YAKINDA!"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 25.000
+TextButton.TextWrapped = true
+
+UICorner_2.Parent = TextButton
+
+EXTRA.Name = "EXTRA"
+EXTRA.Parent = HARAKETLFRAME
+EXTRA.BackgroundColor3 = Color3.fromRGB(194, 143, 25)
+EXTRA.Position = UDim2.new(-0.169937104, 0, 0.460661441, 0)
+EXTRA.Size = UDim2.new(0, 197, 0, 40)
+
+UICorner_3.Parent = EXTRA
+
+TextButton_2.Parent = EXTRA
+TextButton_2.BackgroundColor3 = Color3.fromRGB(194, 143, 25)
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.FredokaOne
+TextButton_2.Text = "TELEPORT"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 25.000
+TextButton_2.TextWrapped = true
+
+UICorner_4.Parent = TextButton_2
+
+frame.Name = "frame"
+frame.Parent = EXTRA
+frame.BackgroundColor3 = Color3.fromRGB(68, 72, 72)
+frame.Position = UDim2.new(1.16751266, 0, -3.82500005, 0)
+frame.Size = UDim2.new(0, 394, 0, 335)
+frame.Visible = false
+
+UICorner_5.Parent = frame
+
+TextLabel.Parent = frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 146, 12)
+TextLabel.Position = UDim2.new(0.169873387, 0, 0.300393015, 0)
+TextLabel.Size = UDim2.new(0, 272, 0, 114)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "OYUN SIFIRLANDIKTAN SONRA TÜM ADALAR EKLENECEKTİR TESEKKÜRLER :)"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+TextLabel.TextWrapped = true
+
+UICorner_6.Parent = TextLabel
+
+farm.Name = "farm"
+farm.Parent = HARAKETLFRAME
+farm.BackgroundColor3 = Color3.fromRGB(244, 37, 40)
+farm.Position = UDim2.new(-0.169937104, 0, 0.105391644, 0)
+farm.Size = UDim2.new(0, 197, 0, 40)
+
+frame_2.Name = "frame"
+frame_2.Parent = farm
+frame_2.BackgroundColor3 = Color3.fromRGB(68, 72, 72)
+frame_2.Position = UDim2.new(1.18274117, 0, -0.425000012, 0)
+frame_2.Size = UDim2.new(0, 394, 0, 335)
+frame_2.Visible = false
+
+UICorner_7.Parent = frame_2
+
+TextButton_3.Parent = frame_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 189, 0)
+TextButton_3.Position = UDim2.new(0.264139235, 0, 0.0489552021, 0)
+TextButton_3.Size = UDim2.new(0, 127, 0, 50)
+TextButton_3.Font = Enum.Font.FredokaOne
+TextButton_3.Text = "AÇ"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 25.000
+TextButton_3.TextWrapped = true
+
+UICorner_8.Parent = TextButton_3
+
+fast.Name = "fast"
+fast.Parent = frame_2
+fast.BackgroundColor3 = Color3.fromRGB(0, 189, 0)
+fast.Position = UDim2.new(0.0391571522, 0, 0.0495522581, 0)
+fast.Size = UDim2.new(0, 70, 0, 50)
+fast.Font = Enum.Font.FredokaOne
+fast.Text = "Hızlı Farm"
+fast.TextColor3 = Color3.fromRGB(255, 255, 255)
+fast.TextSize = 25.000
+fast.TextWrapped = true
+
+UICorner_9.Parent = fast
+
+UICorner_10.Parent = fast
+
+TextButton_4.Parent = frame_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(221, 99, 101)
+TextButton_4.Position = UDim2.new(0.632159531, 0, 0.0489552021, 0)
+TextButton_4.Size = UDim2.new(0, 127, 0, 50)
+TextButton_4.Font = Enum.Font.FredokaOne
+TextButton_4.Text = "KAPAT"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 25.000
+TextButton_4.TextWrapped = true
+
+UICorner_11.Parent = TextButton_4
+
+fast_2.Name = "fast"
+fast_2.Parent = frame_2
+fast_2.BackgroundColor3 = Color3.fromRGB(0, 189, 0)
+fast_2.Position = UDim2.new(0.0391571522, 0, 0.360000014, 0)
+fast_2.Size = UDim2.new(0, 70, 0, 50)
+fast_2.Font = Enum.Font.FredokaOne
+fast_2.Text = "Yavas Farm"
+fast_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+fast_2.TextSize = 20.000
+fast_2.TextWrapped = true
+
+UICorner_12.Parent = fast_2
+
+UICorner_13.Parent = fast_2
+
+TextButton_5.Parent = frame_2
+TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 189, 0)
+TextButton_5.Position = UDim2.new(0.264139235, 0, 0.362388045, 0)
+TextButton_5.Size = UDim2.new(0, 127, 0, 50)
+TextButton_5.Font = Enum.Font.FredokaOne
+TextButton_5.Text = "AÇ"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 25.000
+TextButton_5.TextWrapped = true
+
+UICorner_14.Parent = TextButton_5
+
+TextButton_6.Parent = frame_2
+TextButton_6.BackgroundColor3 = Color3.fromRGB(221, 99, 101)
+TextButton_6.Position = UDim2.new(0.632159531, 0, 0.362388045, 0)
+TextButton_6.Size = UDim2.new(0, 127, 0, 50)
+TextButton_6.Font = Enum.Font.FredokaOne
+TextButton_6.Text = "KAPAT"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 25.000
+TextButton_6.TextWrapped = true
+
+UICorner_15.Parent = TextButton_6
+
+TextLabel_2.Parent = frame_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 149, 151)
+TextLabel_2.Position = UDim2.new(0.200330243, 0, 0.232835829, 0)
+TextLabel_2.Size = UDim2.new(0, 236, 0, 36)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "İkisinide açarsan bir tık daha hızlı kasarsın"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_16.Parent = TextLabel_2
+
+fast_3.Name = "fast"
+fast_3.Parent = frame_2
+fast_3.BackgroundColor3 = Color3.fromRGB(0, 189, 0)
+fast_3.Position = UDim2.new(0.0391571522, 0, 0.574925423, 0)
+fast_3.Size = UDim2.new(0, 70, 0, 50)
+fast_3.Font = Enum.Font.FredokaOne
+fast_3.Text = "Auto Train"
+fast_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+fast_3.TextSize = 20.000
+fast_3.TextWrapped = true
+
+UICorner_17.Parent = fast_3
+
+UICorner_18.Parent = fast_3
+
+fast_4.Name = "fast"
+fast_4.Parent = frame_2
+fast_4.BackgroundColor3 = Color3.fromRGB(0, 189, 0)
+fast_4.Position = UDim2.new(0.0391571522, 0, 0.789850831, 0)
+fast_4.Size = UDim2.new(0, 70, 0, 50)
+fast_4.Font = Enum.Font.FredokaOne
+fast_4.Text = "Son Yumurta "
+fast_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+fast_4.TextSize = 20.000
+fast_4.TextWrapped = true
+
+UICorner_19.Parent = fast_4
+
+UICorner_20.Parent = fast_4
+
+TextButton_7.Parent = frame_2
+TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 189, 0)
+TextButton_7.Position = UDim2.new(0.264139235, 0, 0.574328363, 0)
+TextButton_7.Size = UDim2.new(0, 127, 0, 50)
+TextButton_7.Font = Enum.Font.FredokaOne
+TextButton_7.Text = "AÇ"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 25.000
+TextButton_7.TextWrapped = true
+
+UICorner_21.Parent = TextButton_7
+
+TextButton_8.Parent = frame_2
+TextButton_8.BackgroundColor3 = Color3.fromRGB(221, 99, 101)
+TextButton_8.Position = UDim2.new(0.632159531, 0, 0.574328363, 0)
+TextButton_8.Size = UDim2.new(0, 127, 0, 50)
+TextButton_8.Font = Enum.Font.FredokaOne
+TextButton_8.Text = "KAPAT"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 25.000
+TextButton_8.TextWrapped = true
+
+UICorner_22.Parent = TextButton_8
+
+TextButton_9.Parent = frame_2
+TextButton_9.BackgroundColor3 = Color3.fromRGB(0, 189, 0)
+TextButton_9.Position = UDim2.new(0.264139235, 0, 0.789253712, 0)
+TextButton_9.Size = UDim2.new(0, 127, 0, 50)
+TextButton_9.Font = Enum.Font.FredokaOne
+TextButton_9.Text = "AÇ"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 25.000
+TextButton_9.TextWrapped = true
+
+UICorner_23.Parent = TextButton_9
+
+UICorner_24.Parent = farm
+
+TextButton_10.Parent = farm
+TextButton_10.BackgroundColor3 = Color3.fromRGB(244, 37, 40)
+TextButton_10.Size = UDim2.new(0, 200, 0, 50)
+TextButton_10.Font = Enum.Font.FredokaOne
+TextButton_10.Text = "FARM"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextSize = 25.000
+TextButton_10.TextWrapped = true
+
+UICorner_25.Parent = TextButton_10
+
+dipnoframe.Name = "dipnoframe"
+dipnoframe.Parent = HARAKETLFRAME
+dipnoframe.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+dipnoframe.Position = UDim2.new(0.159773007, 0, -0.122101843, 0)
+dipnoframe.Size = UDim2.new(0, 357, 0, 52)
+
+UICorner_26.Parent = dipnoframe
+
+NOT.Name = "NOT"
+NOT.Parent = dipnoframe
+NOT.BackgroundColor3 = Color3.fromRGB(255, 76, 79)
+NOT.Position = UDim2.new(0.542227149, 0, 0.106395863, 0)
+NOT.Size = UDim2.new(0, 128, 0, 40)
+
+UICorner_27.Parent = NOT
+
+TextButton_11.Parent = NOT
+TextButton_11.BackgroundColor3 = Color3.fromRGB(244, 37, 40)
+TextButton_11.Size = UDim2.new(0, 128, 0, 50)
+TextButton_11.Font = Enum.Font.FredokaOne
+TextButton_11.Text = "ONEMLİ"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextSize = 25.000
+TextButton_11.TextWrapped = true
+
+UICorner_28.Parent = TextButton_11
+
+PLAYER.Name = "PLAYER"
+PLAYER.Parent = HARAKETLFRAME
+PLAYER.BackgroundColor3 = Color3.fromRGB(18, 89, 165)
+PLAYER.Position = UDim2.new(-0.169937104, 0, 0.273999184, 0)
+PLAYER.Size = UDim2.new(0, 197, 0, 40)
+
+UICorner_29.Parent = PLAYER
+
+TextButton_12.Parent = PLAYER
+TextButton_12.BackgroundColor3 = Color3.fromRGB(18, 89, 165)
+TextButton_12.Size = UDim2.new(0, 200, 0, 50)
+TextButton_12.Font = Enum.Font.FredokaOne
+TextButton_12.Text = "OYUNCU"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextSize = 25.000
+TextButton_12.TextWrapped = true
+
+UICorner_30.Parent = TextButton_12
+
+playerframe.Name = "playerframe"
+playerframe.Parent = PLAYER
+playerframe.BackgroundColor3 = Color3.fromRGB(62, 86, 118)
+playerframe.Position = UDim2.new(1.17258883, 0, -2.0250001, 0)
+playerframe.Size = UDim2.new(0, 394, 0, 335)
+playerframe.Visible = false
+
+UICorner_31.Parent = playerframe
+
+TextLabel_3.Parent = playerframe
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(82, 157, 255)
+TextLabel_3.Position = UDim2.new(0.0634517819, 0, 0.0227810517, 0)
+TextLabel_3.Size = UDim2.new(0, 343, 0, 40)
+TextLabel_3.Font = Enum.Font.FredokaOne
+TextLabel_3.Text = "İSTEDİGİNİZİ YAPIN İYİ GÜNLER:)"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 20.000
+TextLabel_3.TextWrapped = true
+
+UICorner_32.Parent = TextLabel_3
+
+HIZ100.Name = "HIZ 100"
+HIZ100.Parent = playerframe
+HIZ100.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+HIZ100.BorderColor3 = Color3.fromRGB(58, 91, 144)
+HIZ100.Position = UDim2.new(0.0302980654, 0, 0.196183711, 0)
+HIZ100.Size = UDim2.new(0, 175, 0, 39)
+HIZ100.Font = Enum.Font.FredokaOne
+HIZ100.Text = "KoşmaHızı : 100"
+HIZ100.TextColor3 = Color3.fromRGB(255, 255, 255)
+HIZ100.TextScaled = true
+HIZ100.TextSize = 25.000
+HIZ100.TextWrapped = true
+
+UICorner_33.CornerRadius = UDim.new(6, 8)
+UICorner_33.Parent = HIZ100
+
+HIZNormal.Name = "HIZ : Normal"
+HIZNormal.Parent = playerframe
+HIZNormal.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+HIZNormal.BorderColor3 = Color3.fromRGB(58, 91, 144)
+HIZNormal.Position = UDim2.new(0.506192327, 0, 0.193929806, 0)
+HIZNormal.Size = UDim2.new(0, 179, 0, 39)
+HIZNormal.Font = Enum.Font.FredokaOne
+HIZNormal.Text = "KoşmaHızı : normal"
+HIZNormal.TextColor3 = Color3.fromRGB(255, 255, 255)
+HIZNormal.TextScaled = true
+HIZNormal.TextSize = 25.000
+HIZNormal.TextWrapped = true
+
+UICorner_34.CornerRadius = UDim.new(6, 8)
+UICorner_34.Parent = HIZNormal
+
+ZIPLAMA100.Name = "ZIPLAMA 100"
+ZIPLAMA100.Parent = playerframe
+ZIPLAMA100.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+ZIPLAMA100.BorderColor3 = Color3.fromRGB(58, 91, 144)
+ZIPLAMA100.Position = UDim2.new(0.0302980654, 0, 0.358658552, 0)
+ZIPLAMA100.Size = UDim2.new(0, 175, 0, 38)
+ZIPLAMA100.Font = Enum.Font.FredokaOne
+ZIPLAMA100.Text = "ZıplamaGücü : 100"
+ZIPLAMA100.TextColor3 = Color3.fromRGB(255, 255, 255)
+ZIPLAMA100.TextScaled = true
+ZIPLAMA100.TextSize = 25.000
+ZIPLAMA100.TextWrapped = true
+
+UICorner_35.CornerRadius = UDim.new(6, 8)
+UICorner_35.Parent = ZIPLAMA100
+
+ZIPLAMANormal.Name = "ZIPLAMA : Normal"
+ZIPLAMANormal.Parent = playerframe
+ZIPLAMANormal.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+ZIPLAMANormal.BorderColor3 = Color3.fromRGB(58, 91, 144)
+ZIPLAMANormal.Position = UDim2.new(0.506192327, 0, 0.36117208, 0)
+ZIPLAMANormal.Size = UDim2.new(0, 179, 0, 39)
+ZIPLAMANormal.Font = Enum.Font.FredokaOne
+ZIPLAMANormal.Text = "ZıplamaGücü : normal"
+ZIPLAMANormal.TextColor3 = Color3.fromRGB(255, 255, 255)
+ZIPLAMANormal.TextSize = 17.000
+ZIPLAMANormal.TextWrapped = true
+
+UICorner_36.CornerRadius = UDim.new(6, 8)
+UICorner_36.Parent = ZIPLAMANormal
+
+TextLabel_4.Parent = playerframe
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(82, 157, 255)
+TextLabel_4.Position = UDim2.new(0.0634517744, 0, 0.572034776, 0)
+TextLabel_4.Size = UDim2.new(0, 343, 0, 113)
+TextLabel_4.Font = Enum.Font.FredokaOne
+TextLabel_4.Text = "eklememi istediginiz player scriptleri varsa dc den belirtiniz:)"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 20.000
+TextLabel_4.TextWrapped = true
+
+UICorner_37.Parent = TextLabel_4
+
+SOCAL.Name = "SOCİAL"
+SOCAL.Parent = HARAKETLFRAME
+SOCAL.BackgroundColor3 = Color3.fromRGB(45, 121, 10)
+SOCAL.Position = UDim2.new(-0.169937104, 0, 0.628546536, 0)
+SOCAL.Size = UDim2.new(0, 197, 0, 40)
+
+UICorner_38.Parent = SOCAL
+
+TextButton_13.Parent = SOCAL
+TextButton_13.BackgroundColor3 = Color3.fromRGB(45, 121, 10)
+TextButton_13.Size = UDim2.new(0, 200, 0, 50)
+TextButton_13.Font = Enum.Font.FredokaOne
+TextButton_13.Text = "SOSYAL"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextSize = 25.000
+TextButton_13.TextWrapped = true
+
+UICorner_39.Parent = TextButton_13
+
+sc.Name = "sc"
+sc.Parent = SOCAL
+sc.BackgroundColor3 = Color3.fromRGB(150, 218, 108)
+sc.Position = UDim2.new(1.18274117, 0, -5.375, 0)
+sc.Size = UDim2.new(0, 394, 0, 335)
+sc.Visible = false
+
+UICorner_40.Parent = sc
+
+TextLabel_5.Parent = sc
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(49, 112, 16)
+TextLabel_5.Position = UDim2.new(0.0634517819, 0, 0.0735273212, 0)
+TextLabel_5.Size = UDim2.new(0, 343, 0, 40)
+TextLabel_5.Font = Enum.Font.FredokaOne
+TextLabel_5.Text = "İSTEDİGİNİZİ YAPIN İYİ GÜNLER:)"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 20.000
+TextLabel_5.TextWrapped = true
+
+UICorner_41.Parent = TextLabel_5
+
+TextLabel_6.Parent = sc
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(64, 153, 64)
+TextLabel_6.Position = UDim2.new(0.0989847705, 0, 0.264572084, 0)
+TextLabel_6.Size = UDim2.new(0, 320, 0, 236)
+TextLabel_6.Font = Enum.Font.FredokaOne
+TextLabel_6.Text = "sosyalde sadece discord adresimiz var katılırsanızda sevinirim:) hile yayınlanınca ilk oradan yayınlanıcak                                           https://discord.gg/EGHG9n34Aa"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 20.000
+TextLabel_6.TextWrapped = true
+
+UICorner_42.Parent = TextLabel_6
+
+BALIK.Name = "BAŞLIK"
+BALIK.Parent = HARAKETLFRAME
+BALIK.BackgroundColor3 = Color3.fromRGB(209, 34, 37)
+BALIK.Position = UDim2.new(-0.0558067001, 0, -0.101214096, 0)
+BALIK.Size = UDim2.new(0, 264, 0, 50)
+
+UICorner_43.Parent = BALIK
+
+TextLabel_7.Parent = BALIK
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.147462532, 0, 0.119999997, 0)
+TextLabel_7.Size = UDim2.new(0, 201, 0, 38)
+TextLabel_7.Font = Enum.Font.Highway
+TextLabel_7.Text = "SHADOW V1.0"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+Frame.Parent = HARAKETLFRAME
+Frame.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Frame.Position = UDim2.new(0.146903887, 0, 0.0287206266, 0)
+Frame.Size = UDim2.new(0, 35, 0, 372)
+
+UICorner_44.Parent = Frame
+
+dipnoon.Name = "dipnoon"
+dipnoon.Parent = HARAKETLFRAME
+dipnoon.BackgroundColor3 = Color3.fromRGB(255, 124, 126)
+dipnoon.Position = UDim2.new(0.248188406, 0, 0.0824369043, 0)
+dipnoon.Size = UDim2.new(0, 394, 0, 337)
+dipnoon.Visible = false
+
+TextLabel_8.Parent = dipnoon
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.Position = UDim2.new(0.0257160943, 0, 0.201510653, 0)
+TextLabel_8.Size = UDim2.new(0, 373, 0, 31)
+TextLabel_8.Font = Enum.Font.FredokaOne
+TextLabel_8.Text = "Shadow  saplar acımaz"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+UICorner_45.Parent = TextLabel_8
+
+TextLabel_9.Parent = dipnoon
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.Position = UDim2.new(0.165468782, 0, 0.0250783693, 0)
+TextLabel_9.Size = UDim2.new(0, 262, 0, 50)
+TextLabel_9.Font = Enum.Font.FredokaOne
+TextLabel_9.Text = "ONEMLİ .D"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+UICorner_46.Parent = TextLabel_9
+
+TextLabel_10.Parent = dipnoon
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.Position = UDim2.new(0.0231780224, 0, 0.577714026, 0)
+TextLabel_10.Size = UDim2.new(0, 373, 0, 41)
+TextLabel_10.Font = Enum.Font.FredokaOne
+TextLabel_10.Text = "OYUNUN YENİSİNİ CIKTIGINDA BOL BOL SCRİPT EKLENECEKTİR"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+UICorner_47.Parent = TextLabel_10
+
+TextLabel_11.Parent = dipnoon
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.Position = UDim2.new(0.0307922363, 0, 0.739347219, 0)
+TextLabel_11.Size = UDim2.new(0, 373, 0, 69)
+TextLabel_11.Font = Enum.Font.FredokaOne
+TextLabel_11.Text = "YOUTUBE / BLOXY STUDİO 2 TANE VİDEOSU VAR ORDAN DC YE GELİRSEN COK SEVİNİRİM TESEKÜÜRLER"
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+UICorner_48.Parent = TextLabel_11
+
+TextLabel_12.Parent = dipnoon
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.Position = UDim2.new(0.0231780224, 0, 0.364064097, 0)
+TextLabel_12.Size = UDim2.new(0, 373, 0, 52)
+TextLabel_12.Font = Enum.Font.FredokaOne
+TextLabel_12.Text = "guilerin üstüne basarak acıp kapatınız birini kapatmadan digerine gecmeyiniz."
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+UICorner_49.Parent = TextLabel_12
+
+UICorner_50.Parent = HARAKETLFRAME
+
+-- Scripts:
+
+local function PRQTV_fake_script() -- HARAKETLFRAME.LocalScript 
+	local script = Instance.new('LocalScript', HARAKETLFRAME)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(PRQTV_fake_script)()
+local function TDHU_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.frame.Visible = not script.Parent.Parent.frame.Visible
+	end)
+	
+	
+	
+end
+coroutine.wrap(TDHU_fake_script)()
+local function SJORYL_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		while wait() do
+			
+			while wait() do
+				
+				while wait() do
+					
+					while wait() do
+						
+						game:GetService("ReplicatedStorage").normalclick:FireServer(true)
+						
+					end
+					
+				end
+				
+			end
+		end
+	end)
+end
+coroutine.wrap(SJORYL_fake_script)()
+local function GPNGWWK_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		while wait() do
+			
+			while wait() do
+				
+				while wait() do
+					
+					while wait() do
+						
+						game:GetService("ReplicatedStorage").normalclick:FireServer(false)
+						
+					end
+					
+				end
+				
+			end
+		end
+	end)
+end
+coroutine.wrap(GPNGWWK_fake_script)()
+local function DATWBQ_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		while wait() do
+			game:GetService("ReplicatedStorage").normalclick:FireServer(true)
+		end
+	end)
+end
+coroutine.wrap(DATWBQ_fake_script)()
+local function RVAGGG_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		while wait() do
+			game:GetService("ReplicatedStorage").normalclick:FireServer(false)
+		end
+	end)
+end
+coroutine.wrap(RVAGGG_fake_script)()
+local function XXWYYR_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		while wait() do
+			game:GetService("ReplicatedStorage").training:FireServer(true, 8)
+			game:GetService("ReplicatedStorage").RemoteEvents.Detection:FireServer("TrainingClick")
+		end
+	end)
+end
+coroutine.wrap(XXWYYR_fake_script)()
+local function GTPTKFM_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		while wait() do
+			game:GetService("ReplicatedStorage").training:FireServer(false, 8)
+			game:GetService("ReplicatedStorage").RemoteEvents.Detection:FireServer("TrainingClick")
+		end
+	end)
+end
+coroutine.wrap(GTPTKFM_fake_script)()
+local function HEAK_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	while wait() do
+		local ohString1 = "StardustIslandGolden"
+		local ohString2 = "Single"
+		game:GetService("ReplicatedStorage").RemoteEvents.EggOpened:InvokeServer(ohString1, ohString2)
+	end
+end
+coroutine.wrap(HEAK_fake_script)()
+local function AZTUDZ_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.frame.Visible = not script.Parent.Parent.frame.Visible
+		
+	end)
+	
+	
+	
+end
+coroutine.wrap(AZTUDZ_fake_script)()
+local function GFZF_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	local AnaFrame = script.Parent.Parent.Parent.Parent.dipnoon
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		AnaFrame.Visible = not AnaFrame.Visible
+	end)
+	
+	
+end
+coroutine.wrap(GFZF_fake_script)()
+local function YCDZ_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	local AnaFrame = script.Parent.Parent.playerframe
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		AnaFrame.Visible = not AnaFrame.Visible
+	end)
+	
+	
+end
+coroutine.wrap(YCDZ_fake_script)()
+local function JDMB_fake_script() -- HIZ100.LocalScript 
+	local script = Instance.new('LocalScript', HIZ100)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+	end)
+end
+coroutine.wrap(JDMB_fake_script)()
+local function DAKUQM_fake_script() -- HIZNormal.LocalScript 
+	local script = Instance.new('LocalScript', HIZNormal)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+	end)
+end
+coroutine.wrap(DAKUQM_fake_script)()
+local function USDAA_fake_script() -- ZIPLAMA100.LocalScript 
+	local script = Instance.new('LocalScript', ZIPLAMA100)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+		wait(0)
+	end)
+end
+coroutine.wrap(USDAA_fake_script)()
+local function VNWVQKB_fake_script() -- ZIPLAMANormal.Zıplama 
+	local script = Instance.new('LocalScript', ZIPLAMANormal)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 40
+	end)
+end
+coroutine.wrap(VNWVQKB_fake_script)()
+local function SGJUTCE_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+
+	local AnaFrame = script.Parent.Parent.sc
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		AnaFrame.Visible = not AnaFrame.Visible
+	end)
+	
+	
+end
+coroutine.wrap(SGJUTCE_fake_script)()
